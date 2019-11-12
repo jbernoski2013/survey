@@ -65,7 +65,7 @@ window.survey = new Survey.Model(json);
 survey
 .onComplete
 .add(function (result) {
-    document.location= ("inexthanks.html")
+    document.location= ("indexthanks.html")
 });
 
 $("#surveyElement").Survey({model: survey});
